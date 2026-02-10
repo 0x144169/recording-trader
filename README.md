@@ -114,7 +114,7 @@ A: 将 `recording-trader` 目录拷贝到新电脑对应路径，或在新电脑
 
 - 所有数据存储在本地，不上传任何云服务
 - 支持完整备份与「导出学习 Zip」分享，数据均在您掌控
-- 本软件为闭源产品，仅提供编译版下载；安装包由 GitHub Actions 构建并发布至本仓库 Releases
+- 提供编译版下载；安装包由 GitHub Actions 构建并发布至本仓库 Releases
 
 ---
 
