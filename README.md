@@ -21,6 +21,8 @@
 | ![晒单入口](docs/screenshots/share-card-entry.png) | ![晒单弹窗](docs/screenshots/share-card-modal.png) | ![晒单结果](docs/screenshots/share-card-result.png) |
 | 做单警示与背景（防 FOMO） | 每日笔数/回撤限制 | 日历打脸提醒 |
 | ![做单警示](docs/screenshots/settings.png) | ![每日限制](docs/screenshots/settings.png) | ![打脸提醒](docs/screenshots/dashboard.png) |
+| 语音录入（本地 Whisper） | 语音模型设置 | |
+| ![语音录入](docs/screenshots/voice-input.png) | ![语音模型](docs/screenshots/voice-settings.png) | |
 
 ## 下载与安装
 
@@ -75,6 +77,7 @@
 - 🖼️ **晒单** - 选一张做单图生成宽幅分享图（可隐藏金额等）
 - 💾 **完整备份与恢复** - 导出全部策略为 Zip（含独立查看器），支持从备份恢复
 - 🛡️ **做单警示与限制** - 警示标语与背景图防 FOMO；每日笔数/回撤限制与日历打脸提醒
+- 🎤 **语音录入** - 本地 Whisper 语音识别，无需联网；口述做单思路自动填入备注，可解析品种/方向/金额
 
 ## 使用示例
 
@@ -114,7 +117,7 @@ A: 将 `recording-trader` 目录拷贝到新电脑对应路径，或在新电脑
 
 - 所有数据存储在本地，不上传任何云服务
 - 支持完整备份与「导出学习 Zip」分享，数据均在您掌控
-- 提供编译版下载；安装包由 GitHub Actions 构建并发布至本仓库 Releases
+- 本软件为闭源产品，仅提供编译版下载；安装包由 GitHub Actions 构建并发布至本仓库 Releases
 
 ---
 
