@@ -13,7 +13,7 @@
 | `settings.png` | 设置页 |
 | `new-order.png` | 新订单弹窗 |
 | `export-learning.png` | 导出学习 Zip 弹窗（筛选、脱敏等选项） |
-| `image-preview.png` | 做单/复盘图点开大图预览（含左右切换） |
+| `image-preview.png` | 做单/复盘图点开大图预览（含左右切换、滚轮缩放、拖动平移） |
 | `daily-report.png` | 日报告：点击某日后该日编辑面板（对比图、笔记、评分） |
 | `share-card-entry.png` | 晒单入口：日报告订单卡片右下角「晒」按钮所在页面 |
 | `share-card-modal.png` | 晒单选项弹窗：选图、隐私选项、预览、保存/复制 |
