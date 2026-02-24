@@ -23,6 +23,10 @@
 | ![做单警示](docs/screenshots/settings.png) | ![每日限制](docs/screenshots/settings.png) | ![打脸提醒](docs/screenshots/dashboard.png) |
 | 语音录入（本地 Whisper） | 语音模型设置 | |
 | ![语音录入](docs/screenshots/voice-input.png) | ![语音模型](docs/screenshots/voice-settings.png) | |
+| 知识库 (BETA) | 语音与 AI（启用开关 + 获取模型列表） | 盘口时区（亚/欧/美冬夏令时） |
+| ![知识库](docs/screenshots/knowledge.png) | ![语音与AI](docs/screenshots/ai-settings.png) | ![盘口时区](docs/screenshots/settings.png) |
+| 当日总结 / 单笔分析（可带做单限制） | 回测单笔 AI 分析（关键位·入场·CISD·清扫·市价挂单·开平仓） | |
+| ![当日总结](docs/screenshots/daily-report.png) | ![回测AI分析](docs/screenshots/backtest-ai.png) | |
 
 ## 下载与安装
 
@@ -56,6 +60,20 @@
 5. **再双击打开 .app**  
    - 此时再双击 **Recording Trader.app** 即可正常打开。
 
+## 本地智能总结（可选）
+
+应用支持使用本机 [Ollama](https://ollama.com/) 做「本周智能总结」「回测智能总结」和「单笔 AI 分析」，数据仅在本地处理、不上传。
+
+1. **安装 Ollama**  
+   前往 [ollama.com](https://ollama.com/) 下载并安装，安装后保持 Ollama 运行（托盘或终端里可看到）。  
+   **Windows 用户**：可指定安装目录。在命令行执行安装程序时加上参数，例如：`OllamaSetup.exe /DIR="d:\some\location"`（将 `d:\some\location` 改为你想要的路径）。
+
+2. **在 RT 中配置**  
+   打开 **设置 → ⑦ 语音与 AI**，先勾选 **「启用 AI 分析」**，再填写 **API 地址**（如 `http://127.0.0.1:11434`）与 **模型**（必填）。可点击 **「获取列表」** 从本机 Ollama 拉取已安装的模型名并下拉选择。若要用截图或 K 线图分析，请选用支持 image 的模型，可到 [ollama.com/library](https://ollama.com/library) 查看。填写完成后点击「检测连接」，提示连接成功即配置完成。
+
+3. **拉取模型**  
+   在终端执行 `ollama pull <你填写的模型名>`，确保本机已有所填模型后再使用智能总结功能。
+
 ## 数据存储位置
 
 所有交易记录、截图、数据自动保存在本地：
@@ -80,6 +98,9 @@
 - 💾 **完整备份与恢复** - 导出全部策略为 Zip（含独立查看器），支持从备份恢复
 - 🛡️ **做单警示与限制** - 警示标语与背景图防 FOMO；每日笔数/回撤限制与日历打脸提醒
 - 🎤 **语音录入** - 本地 Whisper 语音识别，无需联网；口述做单思路自动填入备注，可解析品种/方向/金额
+- 📚 **知识库 (BETA)** - 本周/当日/回测智能总结与单笔 AI 分析可「保留到知识库」；左侧菜单进入知识库，按类型与时间浏览、搜索、查看详情、复制或删除
+- 🤖 **本地 AI 分析** - 设置中「启用 AI 分析」开关；开启后可配置 Ollama API 与模型，支持「获取模型列表」从本机 Ollama 拉取模型名；当日总结与单笔分析（实盘）可结合「每日笔数上限」「单笔/当日亏损上限」给建议；回测单笔分析带入关键位、入场、CISD、清扫、市价/挂单、开平仓时间等
+- 🕐 **盘口时间** - 回测按开仓时间归属亚/欧/美盘与开盘时段，盘口边界按产品设定（冬令时/夏令时由美东 DST 自动切换），设置页可查看当前盘口时间
 
 ## 使用示例
 
