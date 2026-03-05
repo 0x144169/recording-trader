@@ -18,5 +18,15 @@
 | `share-card-entry.png` | 晒单入口：日报告订单卡片右下角「晒」按钮所在页面 |
 | `share-card-modal.png` | 晒单选项弹窗：选图、隐私选项、预览、保存/复制 |
 | `share-card-result.png` | 晒单分享图：生成后的宽幅图（K 线图 + 右侧文字竖条） |
+| `premarket-workspace.png` | 盘前计划工作区（多计划 Tab、盘口+品种+偏见、Markdown） |
+| `premarket-images.png` | 盘前图表交互（Ctrl+V、拖拽排序、点击放大切换） |
+| `pretrade-workbench.png` | N 新建后的单前检查双栏工作台 |
+| `pretrade-strong-gate.png` | 强制拦截状态（保存按钮禁用 + 提示文案） |
+| `premarket-bias.png` | 盘前偏见下拉设置（看多/看空/震荡/双向） |
+| `premarket-bias-outcome.png` | 偏见验证结果（成功/失败/待验证 + 一句话结论） |
+| `knowledge-hub.png` | 知识库四分区总览（AI总结/复盘笔记/我的笔记/AI对话） |
+| `knowledge-manual-note.png` | 手写笔记编辑（Markdown + 关联订单） |
+| `knowledge-chat.png` | AI 对话页面（连续上下文问答） |
+| `knowledge-linked-trade.png` | 知识库关联订单跳转（跨模板定位） |
 
 截图后放入本目录，README 中已按上述文件名引用，会以 4 行 3 列显示。

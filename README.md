@@ -8,16 +8,29 @@
 - **界面与初版参考**：基于 Cai_dudu《RT 仪表盘记录.html》
 - **桌面版与优化**：jerry（数据持久化、复盘模式、多平台支持及持续体验优化）
 
-## 最新更新（v2.1.4）
+## 最新更新（v2.2.0）
 
-- 📚 **知识库升级**：新增「AI 总结 / 复盘笔记 / 我的笔记 / AI 对话」四分区，支持手写笔记（Markdown）与关联订单跳转。
-- 🤖 **AI 对话上线**：知识库内可直接与交易教练 AI 连续对话，基于你的历史交易、复盘、限制配置进行分析建议。
-- 🔗 **跨模板跳转修复**：知识库历史条目现在可跨模板自动定位并切换到正确模板查看订单。
-- 💾 **备份能力增强**：完整备份新增 AI 对话历史（`kb_chat_history_v1.json`），恢复与查看更完整。
-- ⚙️ **设置页重构**：改为「交易纪律 / 功能配置 / 数据管理 / 帮助」分组，查找设置更快。
-- 🐛 **反馈更直接**：更新日志页可直接跳转 [GitHub Issues](https://github.com/0x144169/recording-trader/issues) 提交 Bug 与建议。
+- 🗺️ **盘前计划升级**：支持同日多计划（盘口+品种唯一）、盘前偏见、验证结果闭环与更清晰的日报分区布局。
+- 🖼️ **盘前图表交互统一**：支持 Ctrl+V 粘贴、拖拽排序、点击放大与左右切换，交互体验与做单/复盘图片区一致。
+- ✅ **单前检查体验增强**：强制拦截改为仅禁用保存按钮（保留可编辑输入），并提供明确禁用态和动态文案提示。
+- 💾 **数据安全覆盖补齐**：盘前计划图片已纳入策略导出、完整备份与孤立图片扫描引用集合，降低误删风险。
+- 📚 **知识库宣传位补全**：新增知识库四分区、手写笔记、AI 对话、关联订单跳转的公开截图位，便于外部展示。
 
 ## 界面预览
+
+### 新功能亮点（建议优先展示）
+
+| 盘前计划工作区（多计划 + 品种/盘口唯一） | 盘前计划图表（支持 Ctrl+V + 拖拽排序 + 放大切换） |
+|---|---|
+| ![盘前计划工作区](docs/screenshots/premarket-workspace.png) | ![盘前计划图表交互](docs/screenshots/premarket-images.png) |
+| 单前检查双栏工作台（N 新建直达） | 强制拦截（未达阈值清晰禁用保存） |
+| ![单前检查双栏工作台](docs/screenshots/pretrade-workbench.png) | ![强制拦截禁用保存](docs/screenshots/pretrade-strong-gate.png) |
+| 偏见设置与验证结果（成功/失败/待验证） | 偏见验证结果输入（一句话结论） |
+| ![盘前偏见设置](docs/screenshots/premarket-bias.png) | ![偏见验证结果](docs/screenshots/premarket-bias-outcome.png) |
+| 知识库四分区（AI总结/复盘笔记/我的笔记/AI对话） | 手写笔记（Markdown + 关联订单） |
+| ![知识库四分区](docs/screenshots/knowledge-hub.png) | ![手写笔记](docs/screenshots/knowledge-manual-note.png) |
+| AI 对话（连续上下文） | 知识库关联订单跳转（跨模板定位） |
+| ![AI对话](docs/screenshots/knowledge-chat.png) | ![知识库关联跳转](docs/screenshots/knowledge-linked-trade.png) |
 
 | 仪表盘 | 订单总览 | 复盘模式 |
 |--------|----------|----------|
