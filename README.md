@@ -15,6 +15,17 @@
 - ✂️ **播报更短**：结果收敛为短句，保留「仅供娱乐辅助，交易风险自担」提示。
 - 🧩 **设置区更顺手**：虚拟助手与语音 AI 同行展示，并新增六爻使用 Tips。
 
+## 教学视频
+
+README 不直接内嵌播放器，统一导流到本仓库的 GitHub Pages 教学站。
+
+[![第 01 章：安装、下载与更新](docs/tutorials/posters/chapter01-install-download.png)](https://0x144169.github.io/recording-trader/tutorials/chapter01-install-download.html)
+
+- **教学首页**：`https://0x144169.github.io/recording-trader/tutorials/`
+- **第 01 章**：安装、下载与更新
+- **直接打开 MP4**：`https://0x144169.github.io/recording-trader/tutorials/videos/chapter01-install-download.mp4`
+- **启用方式**：仓库 Settings → Pages → Deploy from branch → `main` / `docs`
+
 ## 界面预览
 
 ### 虚拟助手（桌面陪伴）
