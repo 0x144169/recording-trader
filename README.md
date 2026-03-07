@@ -17,14 +17,15 @@
 
 ## 教学视频
 
-README 不直接内嵌播放器，统一导流到本仓库的 GitHub Pages 教学站。
+官方教学会按章节持续补齐，先解决“正确下载、正确启动、正确更新”，再进入工作区、盘前计划、记录与复盘。
 
 [![第 01 章：安装、下载与更新](docs/tutorials/posters/chapter01-install-download.png)](https://0x144169.github.io/recording-trader/tutorials/chapter01-install-download.html)
 
-- **教学首页**：`https://0x144169.github.io/recording-trader/tutorials/`
-- **第 01 章**：安装、下载与更新
-- **直接打开 MP4**：`https://0x144169.github.io/recording-trader/tutorials/videos/chapter01-install-download.mp4`
-- **启用方式**：仓库 Settings → Pages → Deploy from branch → `main` / `docs`
+- **教程总入口**：[Recording Trader Tutorials](https://0x144169.github.io/recording-trader/tutorials/)
+- **当前已上线**：第 01 章《安装、下载与更新》
+- **适合现在观看**：第一次下载、准备升级版本、需要转发安装教程时
+- **后续会补齐**：工作区总览、盘前计划、第一笔订单、复盘与知识库
+- **备用直链**：[chapter01-install-download.mp4](https://0x144169.github.io/recording-trader/tutorials/videos/chapter01-install-download.mp4)
 
 ## 界面预览
 
