@@ -1,0 +1,48 @@
+name: Publish Tutorial Video Assets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/tutorials/videos/**'
+      - 'docs/tutorials/posters/**'
+      - '.github/workflows/tutorial-videos-release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-assets:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ensure latest tutorial release exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="tutorial-videos-latest"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists."
+          else
+            gh release create "$TAG" \
+              --title "Tutorial Videos (Latest)" \
+              --notes "Latest public tutorial assets for Recording Trader." \
+              --prerelease
+          fi
+
+      - name: Upload tutorial video assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          shopt -s nullglob
+          assets=(docs/tutorials/videos/*.mp4 docs/tutorials/posters/*.png)
+
+          if [ ${#assets[@]} -eq 0 ]; then
+            echo "No tutorial assets found."
+            exit 0
+          fi
+
+          gh release upload tutorial-videos-latest "${assets[@]}" --clobber
