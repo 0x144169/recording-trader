@@ -8,6 +8,9 @@
 - 第 03 章：https://0x144169.github.io/recording-trader/tutorials/chapter03-premarket-pretrade.html
 - 第 04 章：https://0x144169.github.io/recording-trader/tutorials/chapter04-first-order-daily-report.html
 - 第 05 章：https://0x144169.github.io/recording-trader/tutorials/chapter05-journal-review.html
+- 第 06 章：https://0x144169.github.io/recording-trader/tutorials/chapter06-knowledge-ai.html
+- 第 07 章：https://0x144169.github.io/recording-trader/tutorials/chapter07-backtest-system.html
+- 第 08 章：https://0x144169.github.io/recording-trader/tutorials/chapter08-backup-migration-companion.html
 
 视频直链：
 
@@ -16,5 +19,8 @@
 - chapter03-premarket-pretrade.mp4
 - chapter04-first-order-daily-report.mp4
 - chapter05-journal-review.mp4
+- chapter06-knowledge-ai.mp4
+- chapter07-backtest-system.mp4
+- chapter08-backup-migration-companion.mp4
 
-这套教程围绕真实使用顺序持续扩展：先把下载、安装、更新跑顺，再进入工作区、盘前计划、第一笔订单、订单总览与复盘模式，后续继续补齐知识库、回测与迁移相关章节。
+这套教程围绕真实使用顺序持续扩展：先把下载、安装、更新跑顺，再进入工作区、盘前计划、第一笔订单、订单总览与复盘模式，随后继续讲清知识库、系统回测、备份迁移与虚拟助手。
