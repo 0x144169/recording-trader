@@ -17,7 +17,7 @@
 
 ## 教学视频
 
-官方教学按真实使用顺序持续补齐：先把下载、安装、更新跑顺，再进入工作区、盘前计划、第一笔订单与日报闭环。
+官方教学按真实使用顺序持续补齐：先把下载、安装、更新跑顺，再进入工作区、盘前计划、第一笔订单、Journal 总览与复盘模式。
 
 [![第 01 章：安装、下载与更新](docs/tutorials/posters/chapter01-install-download.png)](https://0x144169.github.io/recording-trader/tutorials/chapter01-install-download.html)
 
@@ -27,12 +27,14 @@
   - [第 02 章：产品定位与工作区总览](https://0x144169.github.io/recording-trader/tutorials/chapter02-workspace-overview.html)
   - [第 03 章：盘前计划与单前检查](https://0x144169.github.io/recording-trader/tutorials/chapter03-premarket-pretrade.html)
   - [第 04 章：第一笔订单与日报告](https://0x144169.github.io/recording-trader/tutorials/chapter04-first-order-daily-report.html)
-- **适合现在观看**：第一次下载、第一次进入主界面、准备开始正式记录交易
+  - [第 05 章：订单总览与复盘模式](https://0x144169.github.io/recording-trader/tutorials/chapter05-journal-review.html)
+- **适合现在观看**：第一次下载、第一次进入主界面、准备开始正式记录与复盘交易
 - **备用直链**
   - [chapter01-install-download.mp4](https://0x144169.github.io/recording-trader/tutorials/videos/chapter01-install-download.mp4)
   - [chapter02-workspace-overview.mp4](https://0x144169.github.io/recording-trader/tutorials/videos/chapter02-workspace-overview.mp4)
   - [chapter03-premarket-pretrade.mp4](https://0x144169.github.io/recording-trader/tutorials/videos/chapter03-premarket-pretrade.mp4)
   - [chapter04-first-order-daily-report.mp4](https://0x144169.github.io/recording-trader/tutorials/videos/chapter04-first-order-daily-report.mp4)
+  - [chapter05-journal-review.mp4](https://0x144169.github.io/recording-trader/tutorials/videos/chapter05-journal-review.mp4)
 
 ## 界面预览
 
