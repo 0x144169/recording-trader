@@ -1,8 +1,8 @@
-# Recording Trader 教学视频
+# Recording Trader 帮助视频
 
-公开教程统一入口：
+公开帮助视频统一入口：
 
-- 教程首页：https://0x144169.github.io/recording-trader/tutorials/
+- 帮助首页：https://0x144169.github.io/recording-trader/tutorials/
 - 第 01 章：https://0x144169.github.io/recording-trader/tutorials/chapter01-install-download.html
 - 第 02 章：https://0x144169.github.io/recording-trader/tutorials/chapter02-workspace-overview.html
 - 第 03 章：https://0x144169.github.io/recording-trader/tutorials/chapter03-premarket-pretrade.html
@@ -23,4 +23,4 @@
 - chapter07-backtest-system.mp4
 - chapter08-backup-migration-companion.mp4
 
-这套教程围绕真实使用顺序持续扩展：先把下载、安装、更新跑顺，再进入工作区、盘前计划、第一笔订单、订单总览与复盘模式，随后继续讲清知识库、系统回测、备份迁移与虚拟助手。
+这套帮助视频围绕真实使用顺序持续扩展：先把下载、安装、更新跑顺，再进入工作区、盘前计划、第一笔订单、订单总览与复盘模式，随后继续讲清知识库、系统回测、备份迁移与虚拟助手。

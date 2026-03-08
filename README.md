@@ -15,13 +15,13 @@
 - ✂️ **播报更短**：结果收敛为短句，保留「仅供娱乐辅助，交易风险自担」提示。
 - 🧩 **设置区更顺手**：虚拟助手与语音 AI 同行展示，并新增六爻使用 Tips。
 
-## 教学视频
+## 帮助视频
 
-官方教学按真实使用顺序持续补齐：先把下载、安装、更新跑顺，再进入工作区、盘前计划、第一笔订单、Journal 总览、知识沉淀、系统回测与迁移收尾。
+官方帮助视频按真实使用顺序持续补齐：先把下载、安装、更新跑顺，再进入工作区、盘前计划、第一笔订单、Journal 总览、知识沉淀、系统回测与迁移收尾。
 
 [![第 01 章：安装、下载与更新](docs/tutorials/posters/chapter01-install-download.png)](https://0x144169.github.io/recording-trader/tutorials/chapter01-install-download.html)
 
-- **教程总入口**：[Recording Trader Tutorials](https://0x144169.github.io/recording-trader/tutorials/)
+- **帮助视频总入口**：[Recording Trader Help Videos](https://0x144169.github.io/recording-trader/tutorials/)
 - **已上线章节**
   - [第 01 章：安装、下载与更新](https://0x144169.github.io/recording-trader/tutorials/chapter01-install-download.html)
   - [第 02 章：产品定位与工作区总览](https://0x144169.github.io/recording-trader/tutorials/chapter02-workspace-overview.html)
