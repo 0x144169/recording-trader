@@ -1,408 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recording Trader 帮助视频</title>
     <meta
       name="description"
-      content="Recording Trader 官方帮助视频入口。按 01 到 08 串起来看下载、工作区、盘前、录单、复盘、知识库、回测与迁移。"
+      content="Recording Trader 官方帮助视频首页，按真实上手顺序整理所有章节。"
     />
-    <link rel="stylesheet" href="./assets/tutorials.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="page tutorials-home">
-      <header class="topbar">
-        <a class="brand" href="../index.html">
-          <span class="brand-mark">RT</span>
-          <span class="brand-copy">
-            <strong>Recording Trader Help Videos</strong>
-            <span>Official Help Videos · User Journey</span>
-          </span>
-        </a>
-        <nav class="actions">
-          <a class="btn btn-primary" href="./chapter01-install-download.html">从第 01 章开始</a>
-          <a class="btn" href="#all-chapters">查看全部章节</a>
-          <a class="btn" href="https://github.com/0x144169/recording-trader/releases">下载最新版本</a>
-        </nav>
-      </header>
+    <div id="page-background" class="page-background" aria-hidden="true">
+      <div class="page-background__mesh"></div>
+      <div class="page-background__glow page-background__glow--left"></div>
+      <div class="page-background__glow page-background__glow--right"></div>
+    </div>
 
-      <section class="hero">
-        <div class="hero-grid">
-          <div>
-            <span class="eyebrow">official help videos</span>
-            <h1>Recording Trader 帮助视频</h1>
-            <p>
-              这里不是一堆功能说明书，而是一条串起来的使用帮助路线。你可以从第 01 章一路看到第 08 章，也可以直接跳到你当前卡住的那一步，
-              比如下载、盘前计划、录单、复盘、知识沉淀、系统回测或备份迁移。
-            </p>
-            <div class="actions" style="margin-top: 24px;">
-              <a class="btn btn-primary" href="./chapter01-install-download.html">先看第 01 章</a>
-              <a class="btn" href="./chapter05-journal-review.html">直接跳到复盘模式</a>
-              <a class="btn" href="./videos/chapter08-backup-migration-companion.mp4">打开最新成片</a>
-            </div>
+    <main class="page-shell">
+      <section class="market-strip" aria-label="帮助视频重点章节">
+        <div class="market-strip__viewport">
+          <div class="market-strip__track">
+            <span class="market-strip__item market-strip__item--accent">HELP</span>
+            <span class="market-strip__item">CH 01 INSTALL / UPDATE</span>
+            <span class="market-strip__item">CH 02 WORKSPACE OVERVIEW</span>
+            <span class="market-strip__item">CH 03 PRE-MARKET GATE</span>
+            <span class="market-strip__item">CH 04 FIRST DAILY REPORT</span>
+            <span class="market-strip__item">CH 05 JOURNAL & REVIEW</span>
+            <span class="market-strip__item">CH 06 KNOWLEDGE BASE & AI</span>
+            <span class="market-strip__item">CH 07 BACKTEST SYSTEM</span>
+            <span class="market-strip__item">CH 08 BACKUP / MIGRATION</span>
+            <span class="market-strip__item market-strip__item--signal-up">START FROM CH 01</span>
+            <span class="market-strip__item market-strip__item--signal-down">FOLLOW REAL WORKFLOW</span>
           </div>
-          <aside class="hero-card">
-            <h3>常见入口，一眼就找到</h3>
-            <ul class="hero-list">
-              <li>刚下载产品：先看第 01 章和第 02 章。</li>
-              <li>准备正式使用：从第 03 章到第 05 章把动作闭环跑顺。</li>
-              <li>想做深一点：第 06 章到第 08 章继续接上知识库、回测与迁移。</li>
-              <li>每张封面都可以点，直接进入对应帮助页。</li>
-            </ul>
-          </aside>
         </div>
       </section>
 
-      <section class="section panel">
-        <div class="section-head">
-          <div>
-            <span class="section-kicker">Help Map</span>
-            <h2 class="section-title">使用帮助路线图</h2>
-            <p class="section-copy">
-              像顺着一张路线图前进一样，从下载安装到长期复用，一步一步串起来。
-            </p>
+      <section class="hero-card">
+        <div class="hero-copy">
+          <div class="hero-badge">Official Help Videos</div>
+          <h1>Recording Trader 帮助视频</h1>
+          <p class="hero-description">
+            按真实上手顺序整理，从安装更新到订单、复盘、知识库、回测与迁移，
+            让第一次接触产品的人也能快速跟上。
+          </p>
+          <div class="hero-meta">
+            <div class="hero-stat">
+              <span class="hero-stat__value" id="chapter-count">0</span>
+              <span class="hero-stat__label">已上线章节</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat__value">建议按序</span>
+              <span class="hero-stat__label">从 01 开始</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat__value">覆盖完整</span>
+              <span class="hero-stat__label">从上手到复盘</span>
+            </div>
           </div>
-        </div>
-        <div class="journey-map">
-          <a class="journey-step" href="./chapter01-install-download.html" data-step="01">
-            <strong>安装、下载与更新</strong>
-            <span>先把入口与版本路径跑顺。</span>
-          </a>
-          <a class="journey-step" href="./chapter02-workspace-overview.html" data-step="02">
-            <strong>工作区总览</strong>
-            <span>先建立页面地图感，知道去哪做什么。</span>
-          </a>
-          <a class="journey-step" href="./chapter03-premarket-pretrade.html" data-step="03">
-            <strong>盘前计划与单前检查</strong>
-            <span>先计划，再行动，把纪律放在前面。</span>
-          </a>
-          <a class="journey-step" href="./chapter04-first-order-daily-report.html" data-step="04">
-            <strong>第一笔订单与日报告</strong>
-            <span>从录单到日报，走完第一次闭环。</span>
-          </a>
-          <a class="journey-step" href="./chapter05-journal-review.html" data-step="05">
-            <strong>订单总览与复盘模式</strong>
-            <span>把交易样本真正变成可复盘材料。</span>
-          </a>
-          <a class="journey-step" href="./chapter06-knowledge-ai.html" data-step="06">
-            <strong>知识库与智能工作流</strong>
-            <span>把结论沉淀下来，而不是看完就散。</span>
-          </a>
-          <a class="journey-step" href="./chapter07-backtest-system.html" data-step="07">
-            <strong>系统回测</strong>
-            <span>把样本和分析放进同一条方法线。</span>
-          </a>
-          <a class="journey-step" href="./chapter08-backup-migration-companion.html" data-step="08">
-            <strong>备份迁移与虚拟助手</strong>
-            <span>补齐长期使用、换机迁移与陪伴入口。</span>
-          </a>
         </div>
       </section>
 
-      <section class="section panel" id="all-chapters">
-        <div class="section-head">
+      <section class="chapters-section">
+        <div class="section-heading">
           <div>
-            <span class="section-kicker">All Chapters</span>
-            <h2 class="section-title">全部帮助章节</h2>
-            <p class="section-copy">
-              不再区分主线和后续路线，所有帮助都放在一起；你可以按顺序看，也可以直接跳到当前问题。
-            </p>
+            <div class="section-kicker">Chapter Library</div>
+            <h2>全部帮助章节</h2>
           </div>
+          <p class="section-summary">
+            不再区分复杂路线图，直接按章节顺序浏览，看到哪一章就学哪一章。
+          </p>
         </div>
-        <div class="grid grid-2">
-          <article class="chapter-card">
-            <a class="chapter-cover-link" href="./chapter01-install-download.html">
-              <img
-                class="chapter-cover"
-                src="./posters/chapter01-install-download.png"
-                alt="第 01 章封面"
-              />
-              <span class="chapter-cover-hint">点击封面进入帮助页</span>
-            </a>
-            <div class="chapter-body">
-              <span class="tag ready">Help 01</span>
-              <a class="chapter-title-link" href="./chapter01-install-download.html">
-                <h3>安装、下载与更新</h3>
-              </a>
-              <p>把下载入口、安装流程、首次启动确认和后续更新路径一次讲清。</p>
-              <div class="meta-grid">
-                <div class="meta-item">
-                  <strong>适合场景</strong>
-                  <span>首次下载、版本更新、转发给新用户</span>
-                </div>
-                <div class="meta-item">
-                  <strong>帮助目标</strong>
-                  <span>先把正确入口和版本路径跑顺</span>
-                </div>
-                <div class="meta-item">
-                  <strong>时长</strong>
-                  <span>约 1 分 31 秒</span>
-                </div>
-              </div>
-              <div class="actions">
-                <a class="btn btn-primary" href="./chapter01-install-download.html">观看本章</a>
-                <a class="btn" href="./videos/chapter01-install-download.mp4">播放 MP4</a>
-              </div>
-            </div>
-          </article>
 
-          <article class="chapter-card">
-            <a class="chapter-cover-link" href="./chapter02-workspace-overview.html">
-              <img
-                class="chapter-cover"
-                src="./posters/chapter02-workspace-overview.png"
-                alt="第 02 章封面"
-              />
-              <span class="chapter-cover-hint">点击封面进入帮助页</span>
-            </a>
-            <div class="chapter-body">
-              <span class="tag ready">Help 02</span>
-              <a class="chapter-title-link" href="./chapter02-workspace-overview.html">
-                <h3>产品定位与工作区总览</h3>
-              </a>
-              <p>先建立地图感：Dashboard、Journal、Learning、Review、Knowledge、Settings 各自做什么。</p>
-              <div class="meta-grid">
-                <div class="meta-item">
-                  <strong>适合场景</strong>
-                  <span>第一次进入主界面，不想“看见很多按钮却没地图”</span>
-                </div>
-                <div class="meta-item">
-                  <strong>帮助目标</strong>
-                  <span>先知道去哪，再开始具体操作</span>
-                </div>
-                <div class="meta-item">
-                  <strong>时长</strong>
-                  <span>约 34 秒</span>
-                </div>
-              </div>
-              <div class="actions">
-                <a class="btn btn-primary" href="./chapter02-workspace-overview.html">观看本章</a>
-                <a class="btn" href="./videos/chapter02-workspace-overview.mp4">播放 MP4</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="chapter-card">
-            <a class="chapter-cover-link" href="./chapter03-premarket-pretrade.html">
-              <img
-                class="chapter-cover"
-                src="./posters/chapter03-premarket-pretrade.png"
-                alt="第 03 章封面"
-              />
-              <span class="chapter-cover-hint">点击封面进入帮助页</span>
-            </a>
-            <div class="chapter-body">
-              <span class="tag ready">Help 03</span>
-              <a class="chapter-title-link" href="./chapter03-premarket-pretrade.html">
-                <h3>盘前计划与单前检查</h3>
-              </a>
-              <p>真正做单前，先把盘前计划写清、偏见说清，再用门槛把自己拦住。</p>
-              <div class="meta-grid">
-                <div class="meta-item">
-                  <strong>适合场景</strong>
-                  <span>想把“先计划后行动”变成固定动作</span>
-                </div>
-                <div class="meta-item">
-                  <strong>帮助目标</strong>
-                  <span>把纪律前置到交易发生之前</span>
-                </div>
-                <div class="meta-item">
-                  <strong>时长</strong>
-                  <span>约 35 秒</span>
-                </div>
-              </div>
-              <div class="actions">
-                <a class="btn btn-primary" href="./chapter03-premarket-pretrade.html">观看本章</a>
-                <a class="btn" href="./videos/chapter03-premarket-pretrade.mp4">播放 MP4</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="chapter-card">
-            <a class="chapter-cover-link" href="./chapter04-first-order-daily-report.html">
-              <img
-                class="chapter-cover"
-                src="./posters/chapter04-first-order-daily-report.png"
-                alt="第 04 章封面"
-              />
-              <span class="chapter-cover-hint">点击封面进入帮助页</span>
-            </a>
-            <div class="chapter-body">
-              <span class="tag ready">Help 04</span>
-              <a class="chapter-title-link" href="./chapter04-first-order-daily-report.html">
-                <h3>第一笔订单与日报告</h3>
-              </a>
-              <p>从录单开始，到 Journal 回看，再到日报与智能总结，形成第一天闭环。</p>
-              <div class="meta-grid">
-                <div class="meta-item">
-                  <strong>适合场景</strong>
-                  <span>准备开始正式记录，想知道最小完整动作链</span>
-                </div>
-                <div class="meta-item">
-                  <strong>帮助目标</strong>
-                  <span>理解一次记录从开始到收尾怎么走完</span>
-                </div>
-                <div class="meta-item">
-                  <strong>时长</strong>
-                  <span>约 35 秒</span>
-                </div>
-              </div>
-              <div class="actions">
-                <a class="btn btn-primary" href="./chapter04-first-order-daily-report.html">观看本章</a>
-                <a class="btn" href="./videos/chapter04-first-order-daily-report.mp4">播放 MP4</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="chapter-card">
-            <a class="chapter-cover-link" href="./chapter05-journal-review.html">
-              <img
-                class="chapter-cover"
-                src="./posters/chapter05-journal-review.png"
-                alt="第 05 章封面"
-              />
-              <span class="chapter-cover-hint">点击封面进入帮助页</span>
-            </a>
-            <div class="chapter-body">
-              <span class="tag ready">Help 05</span>
-              <a class="chapter-title-link" href="./chapter05-journal-review.html">
-                <h3>订单总览与复盘模式</h3>
-              </a>
-              <p>从 Journal 筛选样本，进入 Review Mode，用截图、评分与复盘文字把订单变成经验。</p>
-              <div class="meta-grid">
-                <div class="meta-item">
-                  <strong>适合场景</strong>
-                  <span>已经开始记录交易，准备建立稳定复盘动作</span>
-                </div>
-                <div class="meta-item">
-                  <strong>帮助目标</strong>
-                  <span>把样本真正做成可回看的复盘材料</span>
-                </div>
-                <div class="meta-item">
-                  <strong>时长</strong>
-                  <span>约 40 秒</span>
-                </div>
-              </div>
-              <div class="actions">
-                <a class="btn btn-primary" href="./chapter05-journal-review.html">观看本章</a>
-                <a class="btn" href="./videos/chapter05-journal-review.mp4">播放 MP4</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="chapter-card">
-            <a class="chapter-cover-link" href="./chapter06-knowledge-ai.html">
-              <img
-                class="chapter-cover"
-                src="./posters/chapter06-knowledge-ai.png"
-                alt="第 06 章封面"
-              />
-              <span class="chapter-cover-hint">点击封面进入帮助页</span>
-            </a>
-            <div class="chapter-body">
-              <span class="tag">Help 06</span>
-              <a class="chapter-title-link" href="./chapter06-knowledge-ai.html">
-                <h3>知识库与智能工作流</h3>
-              </a>
-              <p>从智能分析结果进入知识库，把总结、手写笔记、关联订单和连续对话整理成长期资产。</p>
-              <div class="meta-grid">
-                <div class="meta-item">
-                  <strong>适合场景</strong>
-                  <span>已经开始复盘，想把结论沉淀下来并继续复用</span>
-                </div>
-                <div class="meta-item">
-                  <strong>帮助目标</strong>
-                  <span>让结论留下来，变成后续还能用的经验</span>
-                </div>
-                <div class="meta-item">
-                  <strong>时长</strong>
-                  <span>约 1 分 05 秒</span>
-                </div>
-              </div>
-              <div class="actions">
-                <a class="btn btn-primary" href="./chapter06-knowledge-ai.html">观看本章</a>
-                <a class="btn" href="./videos/chapter06-knowledge-ai.mp4">播放 MP4</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="chapter-card">
-            <a class="chapter-cover-link" href="./chapter07-backtest-system.html">
-              <img
-                class="chapter-cover"
-                src="./posters/chapter07-backtest-system.png"
-                alt="第 07 章封面"
-              />
-              <span class="chapter-cover-hint">点击封面进入帮助页</span>
-            </a>
-            <div class="chapter-body">
-              <span class="tag">Help 07</span>
-              <a class="chapter-title-link" href="./chapter07-backtest-system.html">
-                <h3>系统回测</h3>
-              </a>
-              <p>把策略样本、结构化记录、单笔智能分析和统计比较放进同一条系统工作流。</p>
-              <div class="meta-grid">
-                <div class="meta-item">
-                  <strong>适合场景</strong>
-                  <span>希望把回测做成可比较、可统计、可复用的方法库</span>
-                </div>
-                <div class="meta-item">
-                  <strong>帮助目标</strong>
-                  <span>把回测从零散样本推进成系统样本库</span>
-                </div>
-                <div class="meta-item">
-                  <strong>时长</strong>
-                  <span>约 1 分 01 秒</span>
-                </div>
-              </div>
-              <div class="actions">
-                <a class="btn btn-primary" href="./chapter07-backtest-system.html">观看本章</a>
-                <a class="btn" href="./videos/chapter07-backtest-system.mp4">播放 MP4</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="chapter-card">
-            <a class="chapter-cover-link" href="./chapter08-backup-migration-companion.html">
-              <img
-                class="chapter-cover"
-                src="./posters/chapter08-backup-migration-companion.png"
-                alt="第 08 章封面"
-              />
-              <span class="chapter-cover-hint">点击封面进入帮助页</span>
-            </a>
-            <div class="chapter-body">
-              <span class="tag">Help 08</span>
-              <a class="chapter-title-link" href="./chapter08-backup-migration-companion.html">
-                <h3>备份迁移与虚拟助手</h3>
-              </a>
-              <p>收尾讲清学习样本的导出导入、完整备份迁移，以及虚拟助手的长期陪伴能力。</p>
-              <div class="meta-grid">
-                <div class="meta-item">
-                  <strong>适合场景</strong>
-                  <span>准备长期使用、换机迁移，或想把样本分享给他人学习</span>
-                </div>
-                <div class="meta-item">
-                  <strong>帮助目标</strong>
-                  <span>把长期使用、换机和陪伴入口都补齐</span>
-                </div>
-                <div class="meta-item">
-                  <strong>时长</strong>
-                  <span>约 1 分 03 秒</span>
-                </div>
-              </div>
-              <div class="actions">
-                <a class="btn btn-primary" href="./chapter08-backup-migration-companion.html">观看本章</a>
-                <a class="btn" href="./videos/chapter08-backup-migration-companion.mp4">播放 MP4</a>
-              </div>
-            </div>
-          </article>
-        </div>
-        <p class="footer-note">
-          后续新能力继续补帮助视频时，只要沿着这条路线往后加章节，就能自然接进现在这套首页。
-        </p>
+        <div id="chapter-grid" class="chapter-grid"></div>
       </section>
     </main>
+
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
