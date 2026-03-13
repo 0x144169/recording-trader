@@ -213,6 +213,88 @@ html[data-bg-engine="vanta.globe"] .page-background::after {
   padding: 48px 0 72px;
 }
 
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.topbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.topbar-brand__mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #bf8a31, #8f6112);
+  box-shadow: 0 14px 28px rgba(143, 97, 18, 0.18);
+  color: #fff8ea;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.topbar-brand__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.topbar-brand__copy strong {
+  font-size: 15px;
+  line-height: 1.15;
+}
+
+.topbar-brand__copy span {
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(143, 97, 18, 0.16);
+  background: rgba(255, 250, 242, 0.86);
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: 0 10px 24px rgba(43, 24, 4, 0.05);
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.topbar-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(43, 24, 4, 0.08);
+}
+
+.topbar-btn--primary {
+  border-color: rgba(143, 97, 18, 0.24);
+  background: linear-gradient(135deg, #bf8a31, #8f6112);
+  color: #fff8ea;
+}
+
 .market-strip {
   position: relative;
   margin-bottom: 18px;
@@ -691,6 +773,15 @@ html[data-bg-engine="vanta.globe"] .page-background::after {
 }
 
 @media (max-width: 1120px) {
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topbar-actions {
+    flex-wrap: wrap;
+  }
+
   .market-strip__track {
     animation-duration: 32s;
   }
@@ -705,6 +796,18 @@ html[data-bg-engine="vanta.globe"] .page-background::after {
 }
 
 @media (max-width: 760px) {
+  .topbar {
+    margin-bottom: 14px;
+  }
+
+  .topbar-actions {
+    width: 100%;
+  }
+
+  .topbar-btn {
+    flex: 1 1 220px;
+  }
+
   .market-strip {
     margin-bottom: 14px;
   }
