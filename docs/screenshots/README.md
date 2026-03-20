@@ -28,5 +28,8 @@
 | `knowledge-manual-note.png` | 手写笔记编辑（Markdown + 关联订单） |
 | `knowledge-chat.png` | AI 对话页面（连续上下文问答） |
 | `knowledge-linked-trade.png` | 知识库关联订单跳转（跨模板定位） |
+| `mobile-learning-settings.png` | 手机学习模式设置入口（PC 端设置页，展示如何开启服务与复制访问链接） |
+| `mobile-learning-home.png` | 手机学习模式首页（iPhone 端首页/概览，展示可学习的内容入口） |
+| `mobile-learning-detail.png` | 手机学习模式详情（iPhone 端详情页，展示模板/知识库/学习园/回测的下钻内容） |
 
 截图后放入本目录，README 中已按上述文件名引用，会以 4 行 3 列显示。
